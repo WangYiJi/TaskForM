@@ -75,6 +75,12 @@ class PadView: UIView {
 
 //touch event
 extension PadView {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let pointInTouch = touches.first?.location(in: self){
+            let point = CGPoint(x: pointInTouch.x - kAnchorSize/2, y: pointInTouch.y - kAnchorSize/2)
+            self.adjustAnchorPosition(point: point)
+        }
+    }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let pointInTouch = touches.first?.location(in: self){

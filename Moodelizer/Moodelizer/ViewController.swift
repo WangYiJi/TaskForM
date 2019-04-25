@@ -24,7 +24,6 @@ class ViewController: UIViewController {
         padView.layer.borderWidth = 1
         padView.layer.borderColor = UIColor.black.cgColor
         
-        
         lblXCoordinate.layer.cornerRadius = 10
         lblXCoordinate.layer.masksToBounds = true
         
