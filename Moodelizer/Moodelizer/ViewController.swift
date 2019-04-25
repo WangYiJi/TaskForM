@@ -53,8 +53,8 @@ class ViewController: UIViewController {
     
     func dynamicDisplay(point:CGPoint?) {
         if let p = point {
-            self.lblXCoordinate.text = String(format: "x-axis:%.1f", p.x)
-            self.lblYCoordinate.text = String(format: "y-axis:%.1f", p.y)
+            self.lblXCoordinate.text = String(format: "x-axis:%.2f", p.x)
+            self.lblYCoordinate.text = String(format: "y-axis:%.2f", p.y)
             
             self.view.backgroundColor = RGBA(r: p.x*255, g: p.y*255, b: ((p.x+p.y)/2)*255, a: 1)
         } else {
