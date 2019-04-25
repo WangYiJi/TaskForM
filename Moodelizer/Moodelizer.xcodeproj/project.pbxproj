@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31533E9C2270A34A009F8FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533E9B2270A34A009F8FEC /* AppDelegate.swift */; };
+		31533E9E2270A34A009F8FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533E9D2270A34A009F8FEC /* ViewController.swift */; };
+		31533EA12270A34A009F8FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31533E9F2270A34A009F8FEC /* Main.storyboard */; };
+		31533EA42270A34A009F8FEC /* Moodelizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31533EA22270A34A009F8FEC /* Moodelizer.xcdatamodeld */; };
+		31533EA62270A34C009F8FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31533EA52270A34C009F8FEC /* Assets.xcassets */; };
+		31533EA92270A34C009F8FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31533EA72270A34C009F8FEC /* LaunchScreen.storyboard */; };
+		31533EB42270A34C009F8FEC /* MoodelizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533EB32270A34C009F8FEC /* MoodelizerTests.swift */; };
+		31533EEE22713B5A009F8FEC /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533EED22713B5A009F8FEC /* Global.swift */; };
+		31533EF3227166CE009F8FEC /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533EF2227166CE009F8FEC /* PadView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31533EB02270A34C009F8FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31533E902270A34A009F8FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31533E972270A34A009F8FEC;
+			remoteInfo = Moodelizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31533E982270A34A009F8FEC /* Moodelizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodelizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31533E9B2270A34A009F8FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31533E9D2270A34A009F8FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31533EA02270A34A009F8FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31533EA32270A34A009F8FEC /* Moodelizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moodelizer.xcdatamodel; sourceTree = "<group>"; };
+		31533EA52270A34C009F8FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31533EA82270A34C009F8FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31533EAA2270A34C009F8FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31533EAF2270A34C009F8FEC /* MoodelizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodelizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31533EB32270A34C009F8FEC /* MoodelizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodelizerTests.swift; sourceTree = "<group>"; };
+		31533EB52270A34C009F8FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31533EED22713B5A009F8FEC /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		31533EF2227166CE009F8FEC /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31533E952270A34A009F8FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31533EAC2270A34C009F8FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31533E8F2270A34A009F8FEC = {
+			isa = PBXGroup;
+			children = (
+				31533E9A2270A34A009F8FEC /* Moodelizer */,
+				31533EB22270A34C009F8FEC /* MoodelizerTests */,
+				31533E992270A34A009F8FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31533E992270A34A009F8FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31533E982270A34A009F8FEC /* Moodelizer.app */,
+				31533EAF2270A34C009F8FEC /* MoodelizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31533E9A2270A34A009F8FEC /* Moodelizer */ = {
+			isa = PBXGroup;
+			children = (
+				31533EEF22713C61009F8FEC /* View */,
+				31533E9B2270A34A009F8FEC /* AppDelegate.swift */,
+				31533E9D2270A34A009F8FEC /* ViewController.swift */,
+				31533E9F2270A34A009F8FEC /* Main.storyboard */,
+				31533EA52270A34C009F8FEC /* Assets.xcassets */,
+				31533EA72270A34C009F8FEC /* LaunchScreen.storyboard */,
+				31533EAA2270A34C009F8FEC /* Info.plist */,
+				31533EA22270A34A009F8FEC /* Moodelizer.xcdatamodeld */,
+				31533EED22713B5A009F8FEC /* Global.swift */,
+			);
+			path = Moodelizer;
+			sourceTree = "<group>";
+		};
+		31533EB22270A34C009F8FEC /* MoodelizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				31533EB32270A34C009F8FEC /* MoodelizerTests.swift */,
+				31533EB52270A34C009F8FEC /* Info.plist */,
+			);
+			path = MoodelizerTests;
+			sourceTree = "<group>";
+		};
+		31533EEF22713C61009F8FEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31533EF2227166CE009F8FEC /* PadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31533E972270A34A009F8FEC /* Moodelizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31533EB82270A34C009F8FEC /* Build configuration list for PBXNativeTarget "Moodelizer" */;
+			buildPhases = (
+				31533E942270A34A009F8FEC /* Sources */,
+				31533E952270A34A009F8FEC /* Frameworks */,
+				31533E962270A34A009F8FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moodelizer;
+			productName = Moodelizer;
+			productReference = 31533E982270A34A009F8FEC /* Moodelizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31533EAE2270A34C009F8FEC /* MoodelizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31533EBB2270A34C009F8FEC /* Build configuration list for PBXNativeTarget "MoodelizerTests" */;
+			buildPhases = (
+				31533EAB2270A34C009F8FEC /* Sources */,
+				31533EAC2270A34C009F8FEC /* Frameworks */,
+				31533EAD2270A34C009F8FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31533EB12270A34C009F8FEC /* PBXTargetDependency */,
+			);
+			name = MoodelizerTests;
+			productName = MoodelizerTests;
+			productReference = 31533EAF2270A34C009F8FEC /* MoodelizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31533E902270A34A009F8FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					31533E972270A34A009F8FEC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					31533EAE2270A34C009F8FEC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 31533E972270A34A009F8FEC;
+					};
+				};
+			};
+			buildConfigurationList = 31533E932270A34A009F8FEC /* Build configuration list for PBXProject "Moodelizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31533E8F2270A34A009F8FEC;
+			productRefGroup = 31533E992270A34A009F8FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31533E972270A34A009F8FEC /* Moodelizer */,
+				31533EAE2270A34C009F8FEC /* MoodelizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31533E962270A34A009F8FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31533EA92270A34C009F8FEC /* LaunchScreen.storyboard in Resources */,
+				31533EA62270A34C009F8FEC /* Assets.xcassets in Resources */,
+				31533EA12270A34A009F8FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31533EAD2270A34C009F8FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31533E942270A34A009F8FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31533EEE22713B5A009F8FEC /* Global.swift in Sources */,
+				31533E9E2270A34A009F8FEC /* ViewController.swift in Sources */,
+				31533EA42270A34A009F8FEC /* Moodelizer.xcdatamodeld in Sources */,
+				31533EF3227166CE009F8FEC /* PadView.swift in Sources */,
+				31533E9C2270A34A009F8FEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31533EAB2270A34C009F8FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31533EB42270A34C009F8FEC /* MoodelizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31533EB12270A34C009F8FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31533E972270A34A009F8FEC /* Moodelizer */;
+			targetProxy = 31533EB02270A34C009F8FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31533E9F2270A34A009F8FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31533EA02270A34A009F8FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31533EA72270A34C009F8FEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31533EA82270A34C009F8FEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31533EB62270A34C009F8FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31533EB72270A34C009F8FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31533EB92270A34C009F8FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77274K7C27;
+				INFOPLIST_FILE = Moodelizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexWong.Moodelizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31533EBA2270A34C009F8FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77274K7C27;
+				INFOPLIST_FILE = Moodelizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexWong.Moodelizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31533EBC2270A34C009F8FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77274K7C27;
+				INFOPLIST_FILE = MoodelizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexWong.MoodelizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodelizer.app/Moodelizer";
+			};
+			name = Debug;
+		};
+		31533EBD2270A34C009F8FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77274K7C27;
+				INFOPLIST_FILE = MoodelizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexWong.MoodelizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodelizer.app/Moodelizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31533E932270A34A009F8FEC /* Build configuration list for PBXProject "Moodelizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31533EB62270A34C009F8FEC /* Debug */,
+				31533EB72270A34C009F8FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31533EB82270A34C009F8FEC /* Build configuration list for PBXNativeTarget "Moodelizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31533EB92270A34C009F8FEC /* Debug */,
+				31533EBA2270A34C009F8FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31533EBB2270A34C009F8FEC /* Build configuration list for PBXNativeTarget "MoodelizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31533EBC2270A34C009F8FEC /* Debug */,
+				31533EBD2270A34C009F8FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31533EA22270A34A009F8FEC /* Moodelizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31533EA32270A34A009F8FEC /* Moodelizer.xcdatamodel */,
+			);
+			currentVersion = 31533EA32270A34A009F8FEC /* Moodelizer.xcdatamodel */;
+			path = Moodelizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31533E902270A34A009F8FEC /* Project object */;
+}
