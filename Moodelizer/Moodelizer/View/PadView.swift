@@ -18,15 +18,15 @@ class PadView: UIView {
         return view
     }()
     
-    var xLineAnchor:NSLayoutConstraint?
-    var yLineAnchor:NSLayoutConstraint?
-    
     let yLine:UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.black
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
+    
+    var xLineAnchor:NSLayoutConstraint?
+    var yLineAnchor:NSLayoutConstraint?
     
     var anchorView: UIView = {
         let view = UIView()
@@ -54,8 +54,8 @@ class PadView: UIView {
         
         //add x y line to view
         self.addSubview(xLine)
-        self.xLine.topAnchor.constraint(equalToSystemSpacingBelow: self.topAnchor, multiplier: 0).isActive = true
-        self.xLine.bottomAnchor.constraint(equalToSystemSpacingBelow: self.bottomAnchor, multiplier: 0).isActive = true
+        self.xLine.topAnchor.constraint(equalTo: self.topAnchor, constant: 0).isActive = true
+        self.xLine.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: 0).isActive = true
         self.xLine.widthAnchor.constraint(equalToConstant: 1).isActive = true
         self.xLineAnchor = self.xLine.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 50)
         self.xLineAnchor?.isActive = true
