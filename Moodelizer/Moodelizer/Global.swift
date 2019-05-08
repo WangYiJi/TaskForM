@@ -8,14 +8,13 @@
 
 import UIKit
 
-
 let kScreenHeight = UIScreen.main.bounds.size.height
 let kScreenWidth = UIScreen.main.bounds.size.width
 let kStatusHeight = UIApplication.shared.statusBarFrame.size.height
 
-func RGBA(r:CGFloat,g:CGFloat,b:CGFloat,a:CGFloat) ->UIColor {
-    return UIColor(red:r/255, green:g/255, blue:b/255, alpha:a)
+func RGBA(rCol: CGFloat, gCol: CGFloat, bCol: CGFloat, aCol: CGFloat) -> UIColor {
+    return UIColor(red: rCol/255, green: gCol/255, blue: bCol/255, alpha: aCol)
 }
 
 let kAnchorSize: CGFloat = 40
-let kSpace:CGFloat = 0
+let kSpace: CGFloat = 0
