@@ -1,6 +1,0 @@
-framework module Pods_MoodelizerTests {
-  umbrella header "Pods-MoodelizerTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
