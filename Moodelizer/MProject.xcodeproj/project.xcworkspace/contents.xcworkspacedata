@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Moodelizer.xcodeproj">
+      location = "self:/Volumes/Data/WorkSpace/TaskForM/Moodelizer/MProject.xcodeproj">
    </FileRef>
 </Workspace>

@@ -10,49 +10,28 @@
 		31533E9C2270A34A009F8FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533E9B2270A34A009F8FEC /* AppDelegate.swift */; };
 		31533E9E2270A34A009F8FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533E9D2270A34A009F8FEC /* ViewController.swift */; };
 		31533EA12270A34A009F8FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31533E9F2270A34A009F8FEC /* Main.storyboard */; };
-		31533EA42270A34A009F8FEC /* Moodelizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31533EA22270A34A009F8FEC /* Moodelizer.xcdatamodeld */; };
 		31533EA62270A34C009F8FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31533EA52270A34C009F8FEC /* Assets.xcassets */; };
 		31533EA92270A34C009F8FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31533EA72270A34C009F8FEC /* LaunchScreen.storyboard */; };
-		31533EB42270A34C009F8FEC /* MoodelizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533EB32270A34C009F8FEC /* MoodelizerTests.swift */; };
 		31533EEE22713B5A009F8FEC /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533EED22713B5A009F8FEC /* Global.swift */; };
 		31533EF3227166CE009F8FEC /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533EF2227166CE009F8FEC /* PadView.swift */; };
+		317C5B092289178000459F66 /* HoneycombLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317C5B082289178000459F66 /* HoneycombLayer.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		31533EB02270A34C009F8FEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31533E902270A34A009F8FEC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 31533E972270A34A009F8FEC;
-			remoteInfo = Moodelizer;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		31533E982270A34A009F8FEC /* Moodelizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodelizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31533E982270A34A009F8FEC /* MProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31533E9B2270A34A009F8FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31533E9D2270A34A009F8FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31533EA02270A34A009F8FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		31533EA32270A34A009F8FEC /* Moodelizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moodelizer.xcdatamodel; sourceTree = "<group>"; };
 		31533EA52270A34C009F8FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31533EA82270A34C009F8FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31533EAA2270A34C009F8FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31533EAF2270A34C009F8FEC /* MoodelizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodelizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31533EB32270A34C009F8FEC /* MoodelizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodelizerTests.swift; sourceTree = "<group>"; };
-		31533EB52270A34C009F8FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31533EED22713B5A009F8FEC /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		31533EF2227166CE009F8FEC /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
+		317C5B082289178000459F66 /* HoneycombLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		31533E952270A34A009F8FEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31533EAC2270A34C009F8FEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				31533E9A2270A34A009F8FEC /* Moodelizer */,
-				31533EB22270A34C009F8FEC /* MoodelizerTests */,
 				31533E992270A34A009F8FEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,8 +52,7 @@
 		31533E992270A34A009F8FEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31533E982270A34A009F8FEC /* Moodelizer.app */,
-				31533EAF2270A34C009F8FEC /* MoodelizerTests.xctest */,
+				31533E982270A34A009F8FEC /* MProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,25 +67,16 @@
 				31533EA52270A34C009F8FEC /* Assets.xcassets */,
 				31533EA72270A34C009F8FEC /* LaunchScreen.storyboard */,
 				31533EAA2270A34C009F8FEC /* Info.plist */,
-				31533EA22270A34A009F8FEC /* Moodelizer.xcdatamodeld */,
 				31533EED22713B5A009F8FEC /* Global.swift */,
 			);
 			path = Moodelizer;
-			sourceTree = "<group>";
-		};
-		31533EB22270A34C009F8FEC /* MoodelizerTests */ = {
-			isa = PBXGroup;
-			children = (
-				31533EB32270A34C009F8FEC /* MoodelizerTests.swift */,
-				31533EB52270A34C009F8FEC /* Info.plist */,
-			);
-			path = MoodelizerTests;
 			sourceTree = "<group>";
 		};
 		31533EEF22713C61009F8FEC /* View */ = {
 			isa = PBXGroup;
 			children = (
 				31533EF2227166CE009F8FEC /* PadView.swift */,
+				317C5B082289178000459F66 /* HoneycombLayer.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31533E972270A34A009F8FEC /* Moodelizer */ = {
+		31533E972270A34A009F8FEC /* MProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31533EB82270A34C009F8FEC /* Build configuration list for PBXNativeTarget "Moodelizer" */;
+			buildConfigurationList = 31533EB82270A34C009F8FEC /* Build configuration list for PBXNativeTarget "MProject" */;
 			buildPhases = (
 				31533E942270A34A009F8FEC /* Sources */,
 				31533E952270A34A009F8FEC /* Frameworks */,
@@ -128,29 +96,10 @@
 			);
 			dependencies = (
 			);
-			name = Moodelizer;
+			name = MProject;
 			productName = Moodelizer;
-			productReference = 31533E982270A34A009F8FEC /* Moodelizer.app */;
+			productReference = 31533E982270A34A009F8FEC /* MProject.app */;
 			productType = "com.apple.product-type.application";
-		};
-		31533EAE2270A34C009F8FEC /* MoodelizerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 31533EBB2270A34C009F8FEC /* Build configuration list for PBXNativeTarget "MoodelizerTests" */;
-			buildPhases = (
-				103E96AD45B2B0804BCF3966 /* [CP] Check Pods Manifest.lock */,
-				31533EAB2270A34C009F8FEC /* Sources */,
-				31533EAC2270A34C009F8FEC /* Frameworks */,
-				31533EAD2270A34C009F8FEC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				31533EB12270A34C009F8FEC /* PBXTargetDependency */,
-			);
-			name = MoodelizerTests;
-			productName = MoodelizerTests;
-			productReference = 31533EAF2270A34C009F8FEC /* MoodelizerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -165,13 +114,9 @@
 					31533E972270A34A009F8FEC = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					31533EAE2270A34C009F8FEC = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 31533E972270A34A009F8FEC;
-					};
 				};
 			};
-			buildConfigurationList = 31533E932270A34A009F8FEC /* Build configuration list for PBXProject "Moodelizer" */;
+			buildConfigurationList = 31533E932270A34A009F8FEC /* Build configuration list for PBXProject "MProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -184,8 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31533E972270A34A009F8FEC /* Moodelizer */,
-				31533EAE2270A34C009F8FEC /* MoodelizerTests */,
+				31533E972270A34A009F8FEC /* MProject */,
 			);
 		};
 /* End PBXProject section */
@@ -201,35 +145,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31533EAD2270A34C009F8FEC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		103E96AD45B2B0804BCF3966 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoodelizerTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		31533E942270A34A009F8FEC /* Sources */ = {
@@ -238,29 +154,13 @@
 			files = (
 				31533EEE22713B5A009F8FEC /* Global.swift in Sources */,
 				31533E9E2270A34A009F8FEC /* ViewController.swift in Sources */,
-				31533EA42270A34A009F8FEC /* Moodelizer.xcdatamodeld in Sources */,
+				317C5B092289178000459F66 /* HoneycombLayer.swift in Sources */,
 				31533EF3227166CE009F8FEC /* PadView.swift in Sources */,
 				31533E9C2270A34A009F8FEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31533EAB2270A34C009F8FEC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31533EB42270A34C009F8FEC /* MoodelizerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		31533EB12270A34C009F8FEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 31533E972270A34A009F8FEC /* Moodelizer */;
-			targetProxy = 31533EB02270A34C009F8FEC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		31533E9F2270A34A009F8FEC /* Main.storyboard */ = {
@@ -434,52 +334,10 @@
 			};
 			name = Release;
 		};
-		31533EBC2270A34C009F8FEC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77274K7C27;
-				INFOPLIST_FILE = MoodelizerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexWong.MoodelizerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodelizer.app/Moodelizer";
-			};
-			name = Debug;
-		};
-		31533EBD2270A34C009F8FEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77274K7C27;
-				INFOPLIST_FILE = MoodelizerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexWong.MoodelizerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodelizer.app/Moodelizer";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31533E932270A34A009F8FEC /* Build configuration list for PBXProject "Moodelizer" */ = {
+		31533E932270A34A009F8FEC /* Build configuration list for PBXProject "MProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31533EB62270A34C009F8FEC /* Debug */,
@@ -488,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31533EB82270A34C009F8FEC /* Build configuration list for PBXNativeTarget "Moodelizer" */ = {
+		31533EB82270A34C009F8FEC /* Build configuration list for PBXNativeTarget "MProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31533EB92270A34C009F8FEC /* Debug */,
@@ -497,29 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31533EBB2270A34C009F8FEC /* Build configuration list for PBXNativeTarget "MoodelizerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				31533EBC2270A34C009F8FEC /* Debug */,
-				31533EBD2270A34C009F8FEC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		31533EA22270A34A009F8FEC /* Moodelizer.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				31533EA32270A34A009F8FEC /* Moodelizer.xcdatamodel */,
-			);
-			currentVersion = 31533EA32270A34A009F8FEC /* Moodelizer.xcdatamodel */;
-			path = Moodelizer.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 31533E902270A34A009F8FEC /* Project object */;
 }

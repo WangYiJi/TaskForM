@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Moodelizer
+//  MProject
 //
 //  Created by 王义吉 on 2019/4/24.
 //  Copyright © 2019 Alex. All rights reserved.
@@ -48,6 +48,14 @@ class ViewController: UIViewController {
             self.lblXCoordinate.text = ""
             self.lblYCoordinate.text = ""
             self.view.backgroundColor = UIColor.lightGray
+        }
+    }
+    
+    @IBAction func didpressed() {
+        if UIApplication.shared.keyWindow?.isHidden ?? false {
+            UIApplication.shared.keyWindow?.isHidden = false
+        } else {
+            UIApplication.shared.keyWindow?.isHidden = true
         }
     }
 }
